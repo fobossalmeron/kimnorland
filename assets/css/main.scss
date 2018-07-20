@@ -1,0 +1,53 @@
+---
+---
+
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,400,600');
+
+$base-font-family: 'Titillium Web', sans-serif;
+$secondary-font-family: 'Eurostile LT', sans-serif;
+$base-font-size:   1rem;
+$base-font-weight: 100;
+$bold-font-weight: 700;
+$small-font-size:  .7rem;
+$base-line-height: 1.3;
+
+$spacing-unit:     30px;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+$black: #383838;
+$white: #f9f9f9;
+$brand-main-color: #0071BB;
+$max-body-width: 1600px;
+
+//Animations 
+$client-rotation-time: 20s;
+
+//Site.baseurl
+$baseurl: "{{site.baseurl}}";
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin media-query-inverse($device){
+    @media screen and ( min-width: $device ){
+        @content;
+    }
+}
+
+@import
+	    "mixins",
+        "dsgeneric",
+        "eurostile",
+        "base",
+        "layout",
+        "syntax-highlighting",
+        "video-react",
+        "swiper.min",
+        "responsive"
+;

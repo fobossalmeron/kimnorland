@@ -1,0 +1,15 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 470 380" style="enable-background:new 0 0 470 380;" xml:space="preserve">
+	<linearGradient id="GradientWHAT" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="100%" y2="0">
+		<stop  offset="0" style="stop-color:#22233F"/>
+		<stop  offset="0.5" style="stop-color:#87E8F7"/>
+		<stop  offset="1" style="stop-color:#22233F"/>
+	</linearGradient>
+<circle class="st0" cx="240.3" cy="178.8" r="132.9"/>
+<ellipse class="st0" cx="397.1" cy="125.2" rx="67.3" ry="67.3"/>
+<ellipse class="st0" cx="73.3" cy="165.3" rx="67.3" ry="67.3"/>
+<ellipse class="st0" cx="126.9" cy="259.7" rx="45" ry="45"/>
+<ellipse transform="matrix(0.9239 -0.3827 0.3827 0.9239 -48.4134 156.0727)" class="st0" cx="368.1" cy="199.7" rx="35.8" ry="35.8"/>
+<ellipse class="st0" cx="303.8" cy="305.2" rx="28.7" ry="28.7"/>
+<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -48.1509 223.0662)" class="st0" cx="245.2" cy="169.7" rx="51.5" ry="51.5"/>
+</svg>

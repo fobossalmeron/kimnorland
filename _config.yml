@@ -1,0 +1,21 @@
+---
+title: 'design:success'
+timezone: UTC
+email: success@designsuccess.com
+description: Design Success
+og_image: "/assets/img/og_image.jpg"
+baseurl: 
+url: http://designsuccess.com
+markdown: kramdown
+plugins:
+- jekyll-feed
+- octopress-autoprefixer
+exclude:
+- Gemfile
+- Gemfile.lock
+- node_modules
+- webpack
+sass:
+  style: compressed
+github:
+- metadata

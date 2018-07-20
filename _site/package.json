@@ -1,0 +1,46 @@
+{
+  "name": "designsuccess",
+  "version": "1.0.0",
+  "description": "website for designsuccess.com",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fobossalmeron/designsuccess.git"
+  },
+  "scripts": {
+    "start": "webpack -w",
+    "build": "webpack -p --progress --config webpack.prod.js"
+  },
+  "author": "Rodrigo Salmeron",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.2",
+    "react-addons-update": "^15.5.2",
+    "react-dom": "^15.5.4",
+    "react-form": "^3.3.0",
+    "react-modal": "^3.5.1",
+    "react-scroll-to-component": "^1.0.2",
+    "react-slick": "^0.20.0",
+    "slick": "^1.12.2",
+    "svg-react-loader": "^0.4.5",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "react-dom": "^15.6.1",
+    "react-helmet": "^5.2.0",
+    "react-id-swiper": "^1.6.6",
+    "react-number-format": "^2.0.4",
+    "react-player": "^0.20.0",
+    "react-tabs": "^1.0.0",
+    "react-transition-group": "^1.2.1",
+    "screenfull": "^3.3.2"
+  }
+}

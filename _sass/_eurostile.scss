@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Eurostile LT';
+    src: url('./../fonts/EurostileLT-Demi.eot');
+    src: url('./../fonts/EurostileLT-Demi.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/EurostileLT-Demi.woff2') format('woff2'),
+        url('./../fonts/EurostileLT-Demi.woff') format('woff'),
+        url('./../fonts/EurostileLT-Demi.ttf') format('truetype'),
+        url('./../fonts/EurostileLT-Demi.svg#./../fonts/EurostileLT-Demi') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eurostile LT';
+    src: url('./../fonts/EurostileLT.eot');
+    src: url('./../fonts/EurostileLT.eot?#iefix') format('embedded-opentype'),
+        url('./../fonts/EurostileLT.woff2') format('woff2'),
+        url('./../fonts/EurostileLT.woff') format('woff'),
+        url('./../fonts/EurostileLT.ttf') format('truetype'),
+        url('./../fonts/EurostileLT.svg#EurostileLT') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
