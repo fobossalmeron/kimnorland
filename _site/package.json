@@ -1,7 +1,7 @@
 {
-  "name": "designsuccess",
+  "name": "kimnorland",
   "version": "1.0.0",
-  "description": "website for designsuccess.com",
+  "description": "website for kimnorland.designsuccess.com",
   "main": "webpack.config.js",
   "repository": {
     "type": "git",

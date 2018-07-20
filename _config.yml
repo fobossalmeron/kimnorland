@@ -1,11 +1,11 @@
 ---
-title: 'design:success'
+title: 'kim norland'
 timezone: UTC
 email: success@designsuccess.com
-description: Design Success
+description: Kim Norland
 og_image: "/assets/img/og_image.jpg"
 baseurl: 
-url: http://designsuccess.com
+url: http://kimnorland.designsuccess.com
 markdown: kramdown
 plugins:
 - jekyll-feed
