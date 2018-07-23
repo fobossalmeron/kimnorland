@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Modal from "react-modal";
 import ReactPlayer from "react-player";
-import StepIcon from "svg-react-loader?name=StepIcon!../../assets/img/layout/step.svg";
-import StepLineIcon from "svg-react-loader?name=StepLineIcon!../../assets/img/layout/stepLine.svg";
+import StepIcon from "svg-react-loader?name=StepIcon!../../../assets/img/layout/step.svg";
+import StepLineIcon from "svg-react-loader?name=StepLineIcon!../../../assets/img/layout/stepLine.svg";
 
 const stepsData = {
   steps: [
@@ -109,21 +109,28 @@ class Steps extends Component {
       </li>
     ));
     return (
-      <ul id="stepsContainer">
-        {stepsList}
-        <StepLineIcon className="stepLine" />
-        <Modal
-          isOpen={this.props.stepOpen}
-          onRequestClose={this.doCloseStep}
-          contentLabel="Video Step"
-          className="modal"
-          overlayClassName="overlay"
-          onClick={this.doCloseStep}
-        >
-          <a className="close" onClick={this.doCloseStep} />
-          <ReactPlayer url={this.state.selectedStep.video} className="video" />
-        </Modal>
-      </ul>
+      <section id="steps">
+        <h2>7 steps for success</h2>
+        <h5>click any number to see its video</h5>
+        <ul id="stepsContainer">
+          {stepsList}
+          <StepLineIcon className="stepLine" />
+          <Modal
+            isOpen={this.props.stepOpen}
+            onRequestClose={this.doCloseStep}
+            contentLabel="Video Step"
+            className="modal"
+            overlayClassName="overlay"
+            onClick={this.doCloseStep}
+          >
+            <a className="close" onClick={this.doCloseStep} />
+            <ReactPlayer
+              url={this.state.selectedStep.video}
+              className="video"
+            />
+          </Modal>
+        </ul>
+      </section>
     );
   }
 }

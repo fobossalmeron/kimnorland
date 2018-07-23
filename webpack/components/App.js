@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import Nav from "./Nav";
+import Modal from "react-modal";
 import HomeSection from "./presentational/HomeSection";
 import AboutSection from "./presentational/AboutSection";
 import BioSection from "./presentational/BioSection";
+import StepsSection from "./presentational/StepsSection";
 import TrustedSection from "./presentational/TrustedSection";
 import EngageSection from "./presentational/EngageSection";
 import scrollToComponent from "react-scroll-to-component";
 
+Modal.setAppElement("#app");
 class App extends Component {
   constructor(props) {
     super(props);
@@ -92,6 +95,9 @@ class App extends Component {
           scrollToBio={() =>
             scrollToComponent(this.Bio, { offset: -45, align: "top" })
           }
+          scrollToSteps={() =>
+            scrollToComponent(this.Steps, { offset: -45, align: "top" })
+          }
           scrollToTrusted={() =>
             scrollToComponent(this.Trusted, { offset: -45, align: "top" })
           }
@@ -112,6 +118,11 @@ class App extends Component {
         <BioSection
           ref={section => {
             this.Bio = section;
+          }}
+        />
+        <StepsSection
+          ref={section => {
+            this.Steps = section;
           }}
           stepOpen={this.state.stepOpen}
           openStep={this.openStep.bind(this)}

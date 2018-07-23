@@ -1,10 +1,5 @@
 import React, { Component } from "react";
-import ReactPlayer from "react-player";
-import Modal from "react-modal";
-import Steps from "./../Steps";
-import PlayButton from "svg-react-loader?name=PlayButton!../../../assets/img/layout/playButton.svg";
 
-Modal.setAppElement("#app");
 class BioSection extends Component {
   constructor(props) {
     super(props);
@@ -60,15 +55,6 @@ class BioSection extends Component {
             and marketing
           </li>
         </ul>
-        <div id="steps">
-          <h2>7 steps for success</h2>
-          <h5>click any number to see its video</h5>
-          <Steps
-          stepOpen={this.props.stepOpen}
-          openStep={this.props.openStep.bind(this)}
-          closeStep={this.props.closeStep.bind(this)}
-          />
-        </div>
       </section>
     );
   }

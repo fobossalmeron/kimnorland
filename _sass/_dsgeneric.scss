@@ -139,7 +139,6 @@ section {
     width: 100%;
     max-width: 1150px;
     margin: 0 auto;
-    min-height: 100vh;
     padding: 3%;
     box-sizing: border-box;
 }
@@ -863,6 +862,7 @@ svg {
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: 2;
     background-color: rgba(0, 0, 0, 0.4);
     transition: .3s ease all;
 }

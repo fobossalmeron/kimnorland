@@ -80,6 +80,18 @@ class Nav extends Component {
     }
   }
 
+  doScrollToSteps() {
+    this.props.closeModal();
+    this.props.closeStep();
+    if (typeof this.props.scrollToSteps !== "undefined") {
+      event.preventDefault();
+      this.props.scrollToSteps();
+      if (window.history && window.history.pushState) {
+        history.pushState("", document.title, "#steps");
+      }
+    }
+  }
+
   doScrollToTrusted() {
     this.props.closeModal();
     this.props.closeStep();
@@ -117,8 +129,6 @@ class Nav extends Component {
 
   render() {
     var baseUrl = this.state.relative ? this.props.relativePath : "";
-    var navIsActive = this.state.menuToggled ? "navActive" : "";
-    var navToggled = this.state.menuToggled ? "toggled" : "";
     var active = this.state.menuToggled ? "active" : "";
 
     return (
@@ -166,6 +176,14 @@ class Nav extends Component {
                 }}
               >
                 <a href={baseUrl + "#bio"}>bio</a>
+              </li>
+              <li
+                onClick={() => {
+                  this.doHideNav();
+                  this.doScrollToSteps();
+                }}
+              >
+                <a href={baseUrl + "#steps"}>steps to success</a>
               </li>
               <li
                 onClick={() => {
