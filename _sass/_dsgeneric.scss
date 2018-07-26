@@ -691,6 +691,9 @@ svg {
             animation-fill-mode: both;
             animation-direction: alternate;
             fill: white;
+            transform: translateZ(0.000001px);
+            backface-visibility: hidden;
+            z-index: 3;
         }
         #gradientDots * {
             fill: url("#gradientTest");

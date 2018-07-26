@@ -246,6 +246,9 @@
 }
 
 @include media-query(500px) {
+    header .headerWrapper a{
+        font-size: 4rem;
+    }
     #about,
     #bio,
     #steps {
@@ -283,5 +286,8 @@
 @include media-query(400px) {
     #contact h2 {
         font-size: 5rem;
+    }
+    header .headerWrapper a{
+        font-size: 3.4rem;
     }
 }
