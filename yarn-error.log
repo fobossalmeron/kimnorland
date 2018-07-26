@@ -1,0 +1,70 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js add webpack --dev
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/salmeron/apache-maven-3.5.3/bin:/Users/salmeron/apache-maven-3.5.3/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "kimnorland",
+    "version": "1.0.0",
+    "description": "website for designsuccess.com/kimnorland",
+    "main": "webpack.config.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fobossalmeron/kimnorland.git"
+    },
+    "scripts": {
+      "start": "webpack -w",
+      "build": "webpack -p --progress --config webpack.prod.js"
+    },
+    "author": "Rodrigo Salmeron",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-loader": "^7.1.5",
+      "babel-plugin-transform-class-properties": "^6.24.1",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react": "^6.24.1",
+      "prop-types": "^15.6.2",
+      "react": "^16.4.1",
+      "react-addons-update": "^15.5.2",
+      "react-dom": "^16.4.1",
+      "react-form": "^3.3.0",
+      "react-modal": "^3.5.1",
+      "react-scroll-to-component": "^1.0.2",
+      "react-svg-loader": "^2.1.0",
+      "webpack": "^4.16.2",
+      "webpack-dev-server": "^3.1.5",
+      "webpack-merge": "^4.1.0"
+    },
+    "dependencies": {
+      "react-player": "^0.20.0",
+      "webpack-cli": "^3.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find package "@webassemblyjs/ast@1.5.13" required by "webpack" on the "npm" registry.
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at PackageRequest.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:36274:17)
+      at Generator.throw (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:111:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)

@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import ReactPlayer from "react-player";
 import Modal from "react-modal";
 import Quotes from "./../Trusted/Quotes";
-import PlayIcon from "svg-react-loader?name=PlayIcon!../../../assets/img/layout/playButton.svg";
-import clientData from "./../../data/clients";
+import PlayIcon from "./../../../assets/img/layout/playButton.svg";
+import clientData from "./../../data/clients"; 
 
 class TrustedSection extends Component {
   constructor() {

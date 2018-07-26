@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Nav from "./Nav";
 import Modal from "react-modal";
+import Nav from "./Nav";
+import EngageSection from "./presentational/EngageSection";
 import HomeSection from "./presentational/HomeSection";
 import AboutSection from "./presentational/AboutSection";
 import BioSection from "./presentational/BioSection";
 import StepsSection from "./presentational/StepsSection";
 import TrustedSection from "./presentational/TrustedSection";
-import EngageSection from "./presentational/EngageSection";
 import scrollToComponent from "react-scroll-to-component";
 
 Modal.setAppElement("#app");
@@ -72,9 +72,9 @@ class App extends Component {
   render() {
     var maintenanceScreen = (
       <div className="loading">
-            <h2 className="blue">we're</h2>
-            <h2 className="yellow">redesigning</h2>
-            <h2 className="pink">ourselves</h2>
+        <h2 className="blue">we're</h2>
+        <h2 className="yellow">redesigning</h2>
+        <h2 className="pink">ourselves</h2>
         <button onClick={this.quitMaintenance}>quit</button>
       </div>
     );

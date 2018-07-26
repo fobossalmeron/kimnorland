@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 
 class BioSection extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <section id="bio">

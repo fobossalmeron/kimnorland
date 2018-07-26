@@ -1,74 +1,74 @@
 import React from 'react';
-import CocaColaIcon from "svg-react-loader?name=CocaColaIcon!./../../assets/img/clients/clientCocaCola.svg";
-import ACHIcon from "svg-react-loader?name=ACHIcon!./../../assets/img/clients/clientACH.svg";
-import CottIcon from "svg-react-loader?name=CottIcon!./../../assets/img/clients/clientCott.svg";
-import GrupoModeloIcon from "svg-react-loader?name=GrupoModeloIcon!./../../assets/img/clients/clientGrupoModelo.svg";
+import CocaColaIcon from "./../../assets/img/clients/clientCocaCola.svg";
+import ACHIcon from "./../../assets/img/clients/clientACH.svg";
+import CottIcon from "./../../assets/img/clients/clientCott.svg";
+import GrupoModeloIcon from "./../../assets/img/clients/clientGrupoModelo.svg";
 
-import PepsicoIcon from "svg-react-loader?name=PepsicoIcon!./../../assets/img/clients/clientPepsico.svg";
-import LattaIcon from "svg-react-loader?name=LattaIcon!./../../assets/img/clients/clientLatta.svg";
-import JanssenIcon from "svg-react-loader?name=JanssenIcon!./../../assets/img/clients/clientJanssen.svg";
-import DiageoIcon from "svg-react-loader?name=DiageoIcon!./../../assets/img/clients/clientDiageo.svg";
+import PepsicoIcon from "./../../assets/img/clients/clientPepsico.svg";
+import LattaIcon from "./../../assets/img/clients/clientLatta.svg";
+import JanssenIcon from "./../../assets/img/clients/clientJanssen.svg";
+import DiageoIcon from "./../../assets/img/clients/clientDiageo.svg";
 
-import ChanelIcon from "svg-react-loader?name=ChanelIcon!./../../assets/img/clients/clientChanel.svg";
-import HPIcon from "svg-react-loader?name=HPIcon!./../../assets/img/clients/clientHP.svg";
-import ArlaIcon from "svg-react-loader?name=ArlaIcon!./../../assets/img/clients/clientArla.svg";
-import FritoLayIcon from "svg-react-loader?name=FritoLayIcon!./../../assets/img/clients/clientFritoLay.svg";
+import ChanelIcon from "./../../assets/img/clients/clientChanel.svg";
+import HPIcon from "./../../assets/img/clients/clientHP.svg";
+import ArlaIcon from "./../../assets/img/clients/clientArla.svg";
+import FritoLayIcon from "./../../assets/img/clients/clientFritoLay.svg";
 
-import BossIcon from "svg-react-loader?name=BossIcon!./../../assets/img/clients/clientBoss.svg";
-import BiersdorfIcon from "svg-react-loader?name=BiersdorfIcon!./../../assets/img/clients/clientBiersdorf.svg";
-import BelgacomIcon from "svg-react-loader?name=BelgacomIcon!./../../assets/img/clients/clientBelgacom.svg";
-import KelloggsIcon from "svg-react-loader?name=KelloggsIcon!./../../assets/img/clients/clientKelloggs.svg";
+import BossIcon from "./../../assets/img/clients/clientBoss.svg";
+import BiersdorfIcon from "./../../assets/img/clients/clientBiersdorf.svg";
+import BelgacomIcon from "./../../assets/img/clients/clientBelgacom.svg";
+import KelloggsIcon from "./../../assets/img/clients/clientKelloggs.svg";
 
-import PradaIcon from "svg-react-loader?name=PradaIcon!./../../assets/img/clients/clientPrada.svg";
-import BonaguaIcon from "svg-react-loader?name=BonaguaIcon!./../../assets/img/clients/clientBonagua.svg";
-import CaptainMorganIcon from "svg-react-loader?name=CaptainMorganIcon!./../../assets/img/clients/clientCaptainMorgan.svg";
-import SigmaIcon from "svg-react-loader?name=SigmaIcon!./../../assets/img/clients/clientSigma.svg";
+import PradaIcon from "./../../assets/img/clients/clientPrada.svg";
+import BonaguaIcon from "./../../assets/img/clients/clientBonagua.svg";
+import CaptainMorganIcon from "./../../assets/img/clients/clientCaptainMorgan.svg";
+import SigmaIcon from "./../../assets/img/clients/clientSigma.svg";
 
-import KraftIcon from "svg-react-loader?name=KraftIcon!./../../assets/img/clients/clientKraft.svg";
-import CarteDorIcon from "svg-react-loader?name=CarteDorIcon!./../../assets/img/clients/clientCarteDor.svg";
-import PedroDomeqIcon from "svg-react-loader?name=PedroDomeqIcon!./../../assets/img/clients/clientPedroDomeq.svg";
-import MoneyAmigoIcon from "svg-react-loader?name=MoneyAmigoIcon!./../../assets/img/clients/clientMoneyAmigo.svg";
+import KraftIcon from "./../../assets/img/clients/clientKraft.svg";
+import CarteDorIcon from "./../../assets/img/clients/clientCarteDor.svg";
+import PedroDomeqIcon from "./../../assets/img/clients/clientPedroDomeq.svg";
+import MoneyAmigoIcon from "./../../assets/img/clients/clientMoneyAmigo.svg";
 
-import SanofiIcon from "svg-react-loader?name=SanofiIcon!./../../assets/img/clients/clientSanofi.svg";
-import CadburyIcon from "svg-react-loader?name=CadburyIcon!./../../assets/img/clients/clientCadbury.svg";
-import TequilaBlackIcon from "svg-react-loader?name=TequilaBlackIcon!./../../assets/img/clients/clientTequilaBlack.svg";
-import MilkaIcon from "svg-react-loader?name=MilkaIcon!./../../assets/img/clients/clientMilka.svg";
+import SanofiIcon from "./../../assets/img/clients/clientSanofi.svg";
+import CadburyIcon from "./../../assets/img/clients/clientCadbury.svg";
+import TequilaBlackIcon from "./../../assets/img/clients/clientTequilaBlack.svg";
+import MilkaIcon from "./../../assets/img/clients/clientMilka.svg";
 
-import PfizerIcon from "svg-react-loader?name=PfizerIcon!./../../assets/img/clients/clientPfizer.svg";
-import KendrickIcon from "svg-react-loader?name=KendrickIcon!./../../assets/img/clients/clientKendrick.svg";
-import SymriseIcon from "svg-react-loader?name=SymriseIcon!./../../assets/img/clients/clientSymrise.svg";
+import PfizerIcon from "./../../assets/img/clients/clientPfizer.svg";
+import KendrickIcon from "./../../assets/img/clients/clientKendrick.svg";
+import SymriseIcon from "./../../assets/img/clients/clientSymrise.svg";
 
-import NovartisIcon from "svg-react-loader?name=NovartisIcon!./../../assets/img/clients/clientNovartis.svg";
-import TrygIcon from "svg-react-loader?name=TrygIcon!./../../assets/img/clients/clientTryg.svg";
-import UnileverIcon from "svg-react-loader?name=UnileverIcon!./../../assets/img/clients/clientUnilever.svg";
+import NovartisIcon from "./../../assets/img/clients/clientNovartis.svg";
+import TrygIcon from "./../../assets/img/clients/clientTryg.svg";
+import UnileverIcon from "./../../assets/img/clients/clientUnilever.svg";
 
-import NikeIcon from "svg-react-loader?name=NikeIcon!./../../assets/img/clients/clientNike.svg";
-import CheetosIcon from "svg-react-loader?name=CheetosIcon!./../../assets/img/clients/clientCheetos.svg";
-import FemsaIcon from "svg-react-loader?name=FemsaIcon!./../../assets/img/clients/clientFemsa.svg";
+import NikeIcon from "./../../assets/img/clients/clientNike.svg";
+import CheetosIcon from "./../../assets/img/clients/clientCheetos.svg";
+import FemsaIcon from "./../../assets/img/clients/clientFemsa.svg";
 
-import MoneyGramIcon from "svg-react-loader?name=MoneyGramIcon!./../../assets/img/clients/clientMoneyGram.svg";
-import ChicolasticIcon from "svg-react-loader?name=ChicolasticIcon!./../../assets/img/clients/clientChicolastic.svg";
-import CipralexIcon from "svg-react-loader?name=CipralexIcon!./../../assets/img/clients/clientCipralex.svg";
+import MoneyGramIcon from "./../../assets/img/clients/clientMoneyGram.svg";
+import ChicolasticIcon from "./../../assets/img/clients/clientChicolastic.svg";
+import CipralexIcon from "./../../assets/img/clients/clientCipralex.svg";
 
-import CapitalOneIcon from "svg-react-loader?name=CapitalOneIcon!./../../assets/img/clients/clientCapitalOne.svg";
-import NovoNordiskIcon from "svg-react-loader?name=NovoNordiskIcon!./../../assets/img/clients/clientNovoNordisk.svg";
-import EricssonIcon from "svg-react-loader?name=EricssonIcon!./../../assets/img/clients/clientEricsson.svg";
+import CapitalOneIcon from "./../../assets/img/clients/clientCapitalOne.svg";
+import NovoNordiskIcon from "./../../assets/img/clients/clientNovoNordisk.svg";
+import EricssonIcon from "./../../assets/img/clients/clientEricsson.svg";
 
-import BaseFIcon from "svg-react-loader?name=BaseFIcon!./../../assets/img/clients/clientBaseF.svg";
-import CitroFruitIcon from "svg-react-loader?name=CitroFruitIcon!./../../assets/img/clients/clientCitroFruit.svg";
-import PoweradeIcon from "svg-react-loader?name=PoweradeIcon!./../../assets/img/clients/clientPowerade.svg";
+import BaseFIcon from "./../../assets/img/clients/clientBaseF.svg";
+import CitroFruitIcon from "./../../assets/img/clients/clientCitroFruit.svg";
+import PoweradeIcon from "./../../assets/img/clients/clientPowerade.svg";
 
-import AmigoincIcon from "svg-react-loader?name=AmigoincIcon!./../../assets/img/clients/clientAmigoinc.svg";
-import PuigIcon from "svg-react-loader?name=PuigIcon!./../../assets/img/clients/clientPuig.svg";
-import TequilaRealIcon from "svg-react-loader?name=TequilaRealIcon!./../../assets/img/clients/clientTequilaReal.svg";
+import AmigoincIcon from "./../../assets/img/clients/clientAmigoinc.svg";
+import PuigIcon from "./../../assets/img/clients/clientPuig.svg";
+import TequilaRealIcon from "./../../assets/img/clients/clientTequilaReal.svg";
 
-import BMWIcon from "svg-react-loader?name=BMWIcon!./../../assets/img/clients/clientBMW.svg";
-import SabritasIcon from "svg-react-loader?name=SabritasIcon!./../../assets/img/clients/clientSabritas.svg";
-import RufflesIcon from "svg-react-loader?name=RufflesIcon!./../../assets/img/clients/clientRuffles.svg";
+import BMWIcon from "./../../assets/img/clients/clientBMW.svg";
+import SabritasIcon from "./../../assets/img/clients/clientSabritas.svg";
+import RufflesIcon from "./../../assets/img/clients/clientRuffles.svg";
 
-import CampbellsIcon from "svg-react-loader?name=CampbellsIcon!./../../assets/img/clients/clientCampbells.svg";
-import TequilaPinqIcon from "svg-react-loader?name=TequilaPinqIcon!./../../assets/img/clients/clientTequilaPinq.svg";
-import BimboIcon from "svg-react-loader?name=BimboIcon!./../../assets/img/clients/clientBimbo.svg";
+import CampbellsIcon from "./../../assets/img/clients/clientCampbells.svg";
+import TequilaPinqIcon from "./../../assets/img/clients/clientTequilaPinq.svg";
+import BimboIcon from "./../../assets/img/clients/clientBimbo.svg";
 
 const clientsData = {
   clientBoxes: [

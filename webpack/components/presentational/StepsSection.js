@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Modal from "react-modal";
 import ReactPlayer from "react-player";
-import StepIcon from "svg-react-loader?name=StepIcon!../../../assets/img/layout/step.svg";
-import StepLineIcon from "svg-react-loader?name=StepLineIcon!../../../assets/img/layout/stepLine.svg";
+import StepIcon from "./../../../assets/img/layout/step.svg";
+import StepLineIcon from "./../../../assets/img/layout/stepLine.svg";
 
 const stepsData = {
   steps: [

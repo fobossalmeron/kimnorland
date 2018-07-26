@@ -3,13 +3,13 @@ title: 'kim norland'
 timezone: UTC
 email: success@designsuccess.com
 description: Kim Norland
-og_image: "/assets/img/og_image.jpg"
+og_image: "assets/img/og_image.jpg"
 baseurl: 
-url: http://kimnorland.designsuccess.com
+url: http://designsuccess.com/kimnorland
 markdown: kramdown
 plugins:
 - jekyll-feed
-- octopress-autoprefixer
+- jekyll-autoprefixer
 exclude:
 - Gemfile
 - Gemfile.lock
