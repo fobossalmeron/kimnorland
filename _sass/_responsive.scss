@@ -11,6 +11,7 @@
 }
 
 @include media-query(1000px) {
+    
     #home{
         display: flex;
     }
@@ -27,6 +28,10 @@
     #bio ul {
         margin-left: 8%;
         padding-right: 0;
+        li::before{
+                width: 20px;
+                left: -35px;
+        }
     }
     #steps {
         h5 {
@@ -43,8 +48,19 @@
         .stepLine{
             display:none;
         }
-        .step:nth-child(even) {
-            margin-top: 80px;
+        .step{
+            &:hover .stepIcon * {
+                animation-play-state: paused;
+            }
+            &:nth-child(even) {
+                margin-top: 80px;
+            }
+            h6{
+                font-size: 1.6rem;
+                display: flex;
+                opacity: 1;
+                margin-bottom: -10px;
+            }
         }
     }
     .overVideo {
@@ -217,13 +233,12 @@
     }
 }
 
-@include media-query(900px) {}
-
-@include media-query(800px) {}
-
 @include media-query(700px) {
     #trustedby .firstColumned {
         min-height: 180px;
+    }
+    .overVideo {
+        padding: 0 0 25% 0;
     }
 }
 
@@ -239,14 +254,14 @@
         .form {
             input,
             textarea {
-                font-size: 1.3rem;
+                font-size: 1.5rem;
             }
         }
     }
 }
 
 @include media-query(500px) {
-    header .headerWrapper a{
+    header .headerWrapper nav ul li a{
         font-size: 4rem;
     }
     #about,
@@ -287,7 +302,7 @@
     #contact h2 {
         font-size: 5rem;
     }
-    header .headerWrapper a{
+    header .headerWrapper nav ul li a{
         font-size: 3.4rem;
     }
 }

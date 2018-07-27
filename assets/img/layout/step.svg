@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" style="enable-background:new 0 0 400 400" version="1.1" viewBox="0 0 400 400" xml:space="preserve">
-        <ellipse class="front" cx="200" cy="200.9" fill="black" rx="191" ry="191" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -83.4939 200.2792)"/>
-        <ellipse class="back" cx="207.9" cy="257.6" rx="134.7" ry="134.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -121.2249 222.4386)"/>
-        <ellipse class="back" cx="245.4" cy="223.6" rx="83.2" ry="83.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -86.2332 238.9909)"/>
+    <circle cx="200" cy="200.9" r="191" class="black"/>
+    <circle cx="200" cy="200.9" r="191" class="back" style="fill:none;stroke:#0071BB;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,30.0031"/>
+    <circle cx="207.9" cy="257.6" r="134.7" class="front" style="fill:none;stroke:#0071BB;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,31.347"/>
+    <ellipse cx="245.4" cy="222.6" class="front front2" rx="83.2" ry="83.2" style="fill:none;stroke:#0071BB;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0,30.7516" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -85.51 238.7127)"/>
 </svg>

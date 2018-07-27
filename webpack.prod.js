@@ -8,5 +8,5 @@ module.exports = merge(common, {
     removeAvailableModules: true,
     removeEmptyChunks: true, 
     mergeDuplicateChunks: true,
-  }
+  },
 });
