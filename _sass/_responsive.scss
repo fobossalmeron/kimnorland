@@ -1,3 +1,11 @@
+@include media-query(1200px) {
+    .headerWrapper {
+        nav {
+            margin-left: -20%;
+        }
+    }
+}
+
 @include media-query(1100px) {
     .overVideo {
         p {
@@ -11,8 +19,7 @@
 }
 
 @include media-query(1000px) {
-    
-    #home{
+    #home {
         display: flex;
     }
     section {
@@ -28,9 +35,9 @@
     #bio ul {
         margin-left: 8%;
         padding-right: 0;
-        li::before{
-                width: 20px;
-                left: -35px;
+        li::before {
+            width: 20px;
+            left: -35px;
         }
     }
     #steps {
@@ -45,21 +52,31 @@
     #stepsContainer {
         grid-template-columns: 1fr 1fr;
         margin-bottom: 16%;
-        .stepLine{
-            display:none;
+        .stepLine {
+            display: none;
         }
-        .step{
-            &:hover .stepIcon * {
-                animation-play-state: paused;
+        .step {
+            &:hover{
+                .stepIcon * {
+                    animation-play-state: paused;
+                }
+                h3{
+                    opacity: 1;
+                }
+            } 
+            .stepIcon{
+                .back, .front{
+                    opacity: 1;
+                }
             }
             &:nth-child(even) {
                 margin-top: 80px;
             }
-            h6{
+            h6 {
                 font-size: 1.6rem;
                 display: flex;
                 opacity: 1;
-                margin-bottom: -10px;
+                margin-top: 50px;
             }
         }
     }
@@ -82,8 +99,13 @@
     }
     header {
         .headerWrapper {
-            nav ul{
-                max-width: 100%;
+            nav {
+                margin-left: 0;
+                min-width: 100vw;
+                min-height: 100vh;
+                ul {
+                    max-width: 100%;
+                }
             }
             a:nth-child(2) {
                 grid-column: 2 /span 2;
@@ -261,13 +283,26 @@
 }
 
 @include media-query(500px) {
-    header .headerWrapper nav ul li a{
+    #contact .locationContact {
+        ul{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center;
+            li{
+               background-color: black;
+            }
+        }
+        &~.locationContact p {
+            font-size: 1.5rem;
+        }
+    }
+    header .headerWrapper nav ul li a {
         font-size: 4rem;
     }
     #about,
     #bio,
     #steps {
-        h2{
+        h2 {
             font-size: 4rem;
         }
     }
@@ -277,12 +312,10 @@
             padding: 35% 10% 35% 4%;
             grid-gap: 0;
         }
-        h1, h2 {
+        h1,
+        h2 {
             font-size: 4rem;
         }
-    }
-    #contact .locationContact~.locationContact p {
-        font-size: 1.5rem;
     }
     .sectionContainer {
         .sectionList {
@@ -302,7 +335,7 @@
     #contact h2 {
         font-size: 5rem;
     }
-    header .headerWrapper nav ul li a{
+    header .headerWrapper nav ul li a {
         font-size: 3.4rem;
     }
 }

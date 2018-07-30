@@ -32,10 +32,7 @@ header {
             margin-top: -15px;
         }
         nav ul {
-            max-width: 330px;
-            li {
-                font-weight: 400;
-            }
+            max-width: 390px;
         }
     }
     &.headerScroll {
@@ -358,7 +355,7 @@ h2 {
 }
 
 #trustedby {
-    padding-top: 10%;
+    padding: 6% 10% 12% 3%;
     h2 {
         display: none;
     }

@@ -30,7 +30,7 @@ module.exports = {
             loader: 'react-svg-loader',
             query: {
               svgo: {
-                plugins: [{removeTitle: false}],
+                plugins: [{cleanupIDs: false}],
                 floatPrecision: 2
               }
             }

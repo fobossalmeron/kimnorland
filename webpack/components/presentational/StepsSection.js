@@ -9,37 +9,37 @@ const stepsData = {
     {
       id: 1,
       title: "conceive it achieve it",
-      video: "https://vimeo.com/145667721"
+      video: "https://vimeo.com/58164505"
     },
     {
       id: 2,
       title: "real innovation",
-      video: "https://vimeo.com/128611752"
+      video: "https://vimeo.com/58164507"
     },
     {
       id: 3,
       title: "choose your dream team",
-      video: "https://vimeo.com/140947117"
+      video: "https://vimeo.com/58164509"
     },
     {
       id: 4,
       title: "fusion innovation",
-      video: "https://vimeo.com/145667721"
+      video: "https://vimeo.com/58164552"
     },
     {
       id: 5,
       title: "explore exploration",
-      video: "https://vimeo.com/145667721"
+      video: "https://vimeo.com/58164557"
     },
     {
       id: 6,
       title: "the power of the 3 p's",
-      video: "https://vimeo.com/145667721"
+      video: "https://vimeo.com/58164553"
     },
     {
       id: 7,
       title: "find new horizons",
-      video: "https://vimeo.com/145667721"
+      video: "https://vimeo.com/58164555"
     }
   ]
 };

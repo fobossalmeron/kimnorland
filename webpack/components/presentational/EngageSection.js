@@ -18,9 +18,11 @@ class EngageSection extends Component {
         <h2><ChallengesWelcome/></h2>
         <div className="locationContact">
           <ul className="chooseList">
-            <li>las vegas</li>
+          <li>las vegas</li>
             <li>mexico city</li>
-            <li>copenhaguen</li>
+            <li>chicago</li>
+            <li>toronto</li>
+            <li>copenhagen</li>
             <li>singapore</li>
           </ul>
         </div>
@@ -45,7 +47,7 @@ class EngageSection extends Component {
           </div>
           <p>
             © design success international ds worldwide consulting llc. all
-            rights reserved. <a>privacy of use</a> | <a>terms & conditions</a>
+            rights reserved. <a href="/privacy">privacy of use</a> | <a href="/terms">terms & conditions</a>
           </p>
         </footer>
       </section>
