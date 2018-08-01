@@ -8,6 +8,7 @@ import BioSection from "./presentational/BioSection";
 import StepsSection from "./presentational/StepsSection";
 import TrustedSection from "./presentational/TrustedSection";
 import scrollToComponent from "react-scroll-to-component";
+import KimNorlandIcon from "./../../assets/img/layout/kimNorland.svg";
 
 Modal.setAppElement("#app");
 class App extends Component {
@@ -17,7 +18,7 @@ class App extends Component {
       menuOn: false,
       modalOpen: false,
       stepOpen: false,
-      maintenance: false
+      maintenance: true
     };
     this.quitMaintenance = this.quitMaintenance.bind(this);
     this.initScrollMagic = this.initScrollMagic.bind(this);
@@ -72,9 +73,8 @@ class App extends Component {
   render() {
     var maintenanceScreen = (
       <div className="loading">
-        <h2 className="blue">we're</h2>
-        <h2 className="yellow">redesigning</h2>
-        <h2 className="pink">ourselves</h2>
+        <KimNorlandIcon />
+        <h2>website under construction</h2>
         <button onClick={this.quitMaintenance}>quit</button>
       </div>
     );
