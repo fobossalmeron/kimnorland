@@ -45,7 +45,7 @@ class TrustedSection extends Component {
             onClick={this.doCloseModal}
           >
             <a className="close" onClick={this.doCloseModal} />
-            <ReactPlayer url="https://vimeo.com/277716867" className="video" />
+            <ReactPlayer url="https://vimeo.com/282907096" className="video" />
           </Modal>
           <div className="trustedVideo" onClick={() => this.props.openModal()}>
             <div className="trustedImage">

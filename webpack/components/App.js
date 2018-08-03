@@ -18,7 +18,7 @@ class App extends Component {
       menuOn: false,
       modalOpen: false,
       stepOpen: false,
-      maintenance: true
+      maintenance: false
     };
     this.quitMaintenance = this.quitMaintenance.bind(this);
     this.initScrollMagic = this.initScrollMagic.bind(this);
