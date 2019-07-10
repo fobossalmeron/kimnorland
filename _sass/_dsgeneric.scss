@@ -563,7 +563,7 @@ svg {
         padding: 0 12.6% 0 6%;
         margin-top: 4%;
         font-size: 1.6rem;
-        &~.locationContact {
+        &~.locationContact { 
             grid-area: locations2;
             display:flex;
             justify-content: space-between;
