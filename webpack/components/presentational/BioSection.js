@@ -9,7 +9,7 @@ class BioSection extends Component {
         </h2>
         <ul>
           <li>Born in Sweden to Danish Parents</li>
-          <li>Lived in 11 counties</li>
+          <li>Lived in 11 countries</li>
           <li>Speaks 6 languages</li>
           <li>Master in design & architecture from The Royal Design School</li>
           <li>

@@ -565,6 +565,8 @@ svg {
         font-size: 1.6rem;
         &~.locationContact {
             grid-area: locations2;
+            display:flex;
+            justify-content: space-between;
             margin-top: 1%;
         }
         ul {
@@ -578,8 +580,8 @@ svg {
         p {
             grid-area: 2 /span 1;
             margin-left: 0;
-            &:nth-child(2) {
-                grid-row-end: span 1;
+            &:nth-child(1),&:nth-child(2) {
+                margin-right: 10px;
             }
             a {
                 color: white;
